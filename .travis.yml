@@ -8,7 +8,7 @@ before_install:
   - curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
   - export PATH="/home/travis/.cask/bin:$PATH"
   - cask
-lein: lein2
+lein: lein
 env:
  - PROFILE=default
  - PROFILE=1.8
